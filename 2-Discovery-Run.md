@@ -1,6 +1,18 @@
 # Pester
 
-## 1 - Context and Describe
+## 2 - Discovery and Run
+
+Pester runs test files in two phases:
+
+- Discovery
+- Run
+
+## Discovery
+
+During discovery
+
+
+## Run
 
 
 
