@@ -9,6 +9,8 @@ Pester runs test files in two phases:
 - Run
     - Pester will run the tests
 
+There is actually a nice way to see what happens in each phase, we'll see that in the "output" section.
+
 ### Syntax
 
 There are notable commands to use for test setup:
