@@ -1,6 +1,6 @@
 <#
     Our function that we will be testing.
-    Remember Pester has 2 phases, Discovery and Run.  
+    Remember Pester has 2 phases, Discovery and Run.
     Because of this we need our function in memory to test it.
     We put our test setup in the "BeforeAll"
 #>
