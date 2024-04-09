@@ -10,20 +10,20 @@ Pester is able to output test results in multiple different ways.
 
 ```powershell
 # None
-Invoke-Pester -Path ../6-Modules/PSSummitDemo/test/ -Output None
+Invoke-Pester -Path ../5-Modules/PSSummitDemo/test/ -Output None
 
 # Normal (Default)
 # No need to specify the -Out=put param
-Invoke-Pester -Path ../6-Modules/PSSummitDemo/test/
+Invoke-Pester -Path ../5-Modules/PSSummitDemo/test/
 
 # Detailed
 # My favorite view <3
-Invoke-Pester -Path ../6-Modules/PSSummitDemo/test/ -Output Detailed
+Invoke-Pester -Path ../5-Modules/PSSummitDemo/test/ -Output Detailed
 
 # Diagnostic
 # This is great to see how Pester is running Discovery, Run, Mock setup etc.
 # Great for test debugging!
-Invoke-Pester -Path ../6-Modules/PSSummitDemo/test/ -Output Diagnostic
+Invoke-Pester -Path ../5-Modules/PSSummitDemo/test/ -Output Diagnostic
 ```
 
 ### Alternative Outputs as of Pester 5.3
